@@ -1,3 +1,4 @@
+# try to  uncomment these lines of code; I updated the gradio version and it should work # interactive=True,
 import gradio as gr
 import numpy as np
 from PIL import Image, ImageDraw
