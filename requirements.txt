@@ -1,0 +1,26 @@
+# Core dependencies for the background replacement project
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Image processing
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# HTTP requests
+requests>=2.25.0
+
+# Hugging Face libraries
+transformers>=4.25.0
+diffusers>=0.21.0
+accelerate>=0.20.0
+
+# Additional dependencies for diffusers
+safetensors>=0.3.0
+xformers>=0.0.20  # Optional but recommended for memory efficiency
+
+# For potential Gradio app (if app.py uses Gradio)
+gradio>=3.40.0
+
+# CUDA support (uncomment if you need specific CUDA versions)
+# --extra-index-url https://download.pytorch.org/whl/cu118
