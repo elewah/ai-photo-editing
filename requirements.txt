@@ -20,7 +20,7 @@ safetensors>=0.3.0
 xformers>=0.0.20  # Optional but recommended for memory efficiency
 
 # For potential Gradio app (if app.py uses Gradio)
-gradio>=3.40.0
+gradio>=3.50.2 
 
 # CUDA support (uncomment if you need specific CUDA versions)
 # --extra-index-url https://download.pytorch.org/whl/cu118
